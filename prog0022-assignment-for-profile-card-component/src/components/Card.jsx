@@ -3,7 +3,7 @@ import image from '../assets/image.png';
 //  name="" age="" location="" followerCount="" likeCount="" photoCount=""
 export function Card({name,age,location,followerCount,likeCount,photoCount}){
     return <>
-    <div style={{background: "grey", color:"black", width:600, height: 600, margin:20}}>
+    <div style={{background: "white", color:"black", width:600, height: 600, margin:20}}>
         <div style={{background: "teal", width:600, height: 450}}>
             <div style={{display: 'flex', justifyContent: 'center', alignItems:'center', paddingTop:100}}>
                 <div>

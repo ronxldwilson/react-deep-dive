@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-    <div style={{display:'flex'}}>
+    <div style={{display:'flex', flexWrap: 'wrap'}}>
       <Card name="Ron" age="21" location="Bengaluru" followerCount="123" likeCount="123" photoCount="123" />
       <Card name="Ron" age="21" location="Bengaluru" followerCount="123" likeCount="123" photoCount="123" />
       <Card name="Ron" age="21" location="Bengaluru" followerCount="123" likeCount="123" photoCount="123" />
